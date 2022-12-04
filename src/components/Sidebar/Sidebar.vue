@@ -25,6 +25,14 @@
         />
         <NavLink
             :activeItem="activeItem"
+            header="Ejercicio"
+            link="/app/ejercicio"
+            iconName="flaticon-file"
+            index="dashboard"
+            isHeader
+        />
+        <NavLink
+            :activeItem="activeItem"
             header="Typography"
             link="/app/typography"
             iconName="flaticon-list"

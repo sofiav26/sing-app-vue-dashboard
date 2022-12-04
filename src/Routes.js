@@ -16,6 +16,9 @@ import GoogleMapPage from '@/pages/Maps/Google';
 // Main
 import AnalyticsPage from '@/pages/Dashboard/Dashboard';
 
+// Ejercicio
+import EjercicioPage from '@/pages/Ejercicio/Ejercicio';
+
 // Charts
 import ChartsPage from '@/pages/Charts/Charts';
 
@@ -77,6 +80,11 @@ export default new Router({
           path: 'components/maps',
           name: 'GoogleMapPage',
           component: GoogleMapPage,
+        },
+        {
+          path: 'ejercicio',
+          name: 'Ejercicio',
+          component: EjercicioPage,
         },
       ],
     },
